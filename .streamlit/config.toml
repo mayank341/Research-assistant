@@ -1,0 +1,17 @@
+[theme]
+base = "dark"
+primaryColor = "#6366f1"
+backgroundColor = "#0b0d12"
+secondaryBackgroundColor = "#12151c"
+textColor = "#e6e8ee"
+borderColor = "#232838"
+font = "sans serif"
+baseRadius = "medium"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Faster reruns: stops Streamlit scanning every imported library on each interaction.
+# (Restart the app manually after editing code.)
+fileWatcherType = "none"

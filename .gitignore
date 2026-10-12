@@ -1,0 +1,24 @@
+@"
+# secrets: NEVER commit these
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+
+# local app data (reports, uploaded documents)
+data/
+
+# editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+"@ | Set-Content -Encoding utf8 .gitignore
